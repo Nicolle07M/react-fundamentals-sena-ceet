@@ -1,0 +1,22 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+/*.avatar {*/
+/*    position: absolute; !* Permite posicionar la imagen *!*/
+/*    top: 50%; !* La mitad de la altura de la ventana *!*/
+/*    left: 50%; !* La mitad del ancho de la ventana *!*/
+/*    transform: translate(-50%, -50%); !* Centra la imagen *!*/
+/*    max-width: 50%; !* Establece el tamaño máximo de la imagen al 50% del contenedor *!*/
+/*    height: auto; !* Para mantener la proporción de la imagen *!*/
+/*    border-radius: 50%;*/
+/*}*/
+
+.avatar {
+    @apply absolute -translate-x-2/4 -translate-y-2/4 max-w-[50%] h-auto rounded-[50%] left-2/4 top-2/4;
+    border-radius: 50%;
+    max-width: 50%;
+
+}
